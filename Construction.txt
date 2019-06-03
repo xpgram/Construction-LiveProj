@@ -1,0 +1,27 @@
+SiteAdministrator (But probably all views):
+
+- Send button in chat dialog is misaligned with text-entry box
+
+
+
+Details View on Scheduled Job Item
+
+- Why aren't we listing assigned employees? Employees *are* listed in the schedule docket, but not in the details view.
+
+- Jobs have a notes field, but:
+
+  - It doesn't seem condusive to more than 1 note
+
+    - In docket view nor in details view, there's very little space
+
+  - There is no description box, and notes appears not to serve that function anyway.
+
+    - It's easy to see where a job will be and who is assigned to it
+    - It is not easy to see what that job is actually for
+      - Which might be nice to have if even just for clerical reasons.
+
+  - I would assign a list of notes, each being their own string.
+
+    - Like what I did for budgetboy/passwordboy
+
+    
