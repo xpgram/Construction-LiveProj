@@ -6,7 +6,15 @@ It was a two-week sprint. We had daily stand-ups and weekly code-retrospectives.
 
 I didn't see the beginning of the project, and I won't see the end, but the experience was fun. Much better than my day job. We all worked on adding features to a website for a real client using MVC in Visual Studio. Below are some excerpts of what I did.
 
-## Story 1: Fit this chat-popup into the whitespace adjacent the Dashboard
+#### Index:
+1. [Chat Popup Resizing](#user-story-fit-this-chat-popup-into-the-whitespace-adjacent-the-dashboard)
+2. [SignalR Refactor](#user-story-signalr-refactor)
+3. [Dynamic Chat Management Page](#user-story-dynamic-chat-management-page)
+4. [Website Guided Tour](#user-story-website-guided-tour)
+
+# Test: Yes
+
+## User Story: Fit this chat-popup into the whitespace adjacent the Dashboard
 ![Chat Popup](https://github.com/xpgram/Construction-LiveProj/blob/master/My%20Edit%20History/img/Chat%20Popup%20-%20Stretch%201.PNG)
 
 This was my first real assignment. The popup was a little buggy, so in addition to getting it to fit like that, I also cleaned up the CSS so its elements were aligned, and the HTML surrounding its controls so it functions like you would expect. The popup had an issue where it would flicker sometimes when you changed pages or tried to open it. I messed with this thing a lot, as you'll see below, and in the end it was pretty unobtrusive; there when you wanted it, and gone when you didn't.
@@ -93,7 +101,7 @@ textarea {
 
 This just proves I know what CSS is, though.
 
-## SignalR Refactor
+## User Story: SignalR Refactor
 Another problem that chat window had was that it would refresh the page nearly every time you looked sternly at it. It was also difficult to use for chatting if the conversation were any longer than the element itself. It was using SignalR to push and send messages from one client to the next, but its implementation was piecemeal and hardly coordinated. My next assignment was actually to rewrite the whole thing, and especially to document it because it was dense and confusing.
 
 ``` csharp
@@ -343,7 +351,7 @@ This implementation only auto-scrolls to the bottom when the user is already vie
 
 I remember this assignment seemed huge when I first took it, but that was because it was using ***a library*** and those are scary to me. It also wasn't commented at all, so it wasn't easy to understand what it was doing. Through research and my own tinkering, however, I realized it wasn't truly that big——and that SignalR is really easy to use, actually. I think I'm just chatting to myself at this point, you can go.
 
-## Dynamic Chat-Management Page
+## User Story: Dynamic Chat-Management Page
 My next assignment was chat-popup-adjacent. I found it easy to continue working in this area because I felt I already knew it so well. Getting to work didn't require any pre-research warm-up.
 
 The chat management page:
@@ -454,7 +462,7 @@ This fills in that modal with the message details, pulled from the page, and let
 
 It also only lights that delete button up if there are checked boxes. I did forget to disable the button after clicking it, though, so it stays active if you delete anything, even though nothing is checked.
 
-## Website Guided Tour
+## User Story: Website Guided Tour
 The last major thing I did, which felt like the longest in time but certainly wasn't in length, was to add a site demo for new users. Here are some pictures.
 
 ![Site Demo 1](https://github.com/xpgram/Construction-LiveProj/blob/master/My%20Edit%20History/img/Dashboard%20-%20Guided%20Tour%201.PNG)
