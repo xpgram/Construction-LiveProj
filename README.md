@@ -12,8 +12,6 @@ I didn't see the beginning of the project, and I won't see the end, but the expe
 3. [Dynamic Chat Management Page](#user-story-dynamic-chat-management-page)
 4. [Website Guided Tour](#user-story-website-guided-tour)
 
-# Test: Yes
-
 ## User Story: Fit this chat-popup into the whitespace adjacent the Dashboard
 ![Chat Popup](https://github.com/xpgram/Construction-LiveProj/blob/master/My%20Edit%20History/img/Chat%20Popup%20-%20Stretch%201.PNG)
 
