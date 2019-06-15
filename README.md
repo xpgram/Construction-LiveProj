@@ -346,11 +346,11 @@ I remember this assignment seemed huge when I first took it, but that was becaus
 ## Dynamic Chat-Management Page
 My next assignment was chat-popup-adjacent. I found it easy to continue working in this area because I felt I already knew it so well. Getting to work didn't require any pre-research warm-up.
 
-The chat management page.
+The chat management page:
 
 ![Chat Management Page](https://github.com/xpgram/Construction-LiveProj/blob/master/My%20Edit%20History/img/Manage%20Chat%20-%20Dynamic%20Update%201.PNG)
 
-Did not have all these fancy buttons and checkboxes. To edit or delete anything, there were two <a> links in those same columns that took you to a separate page to do all your editing. Basic MVC scaffolding stuff. You can imagine, with how many chats there could be, how slow this process might be. I was tasked with making it more dynamic, and keeping it all on one page.
+The page did not have all these fancy buttons and checkboxes. To edit or delete anything, there were two <a> links in those same columns that took you to a separate page to do all your editing. Basic MVC scaffolding stuff. You can imagine, with how many chats there could be, how slow this process might be. I was tasked with making it more dynamic, and keeping it all on one page.
   
 I started by adding the features you saw above. And I added this modal.
 
@@ -563,9 +563,9 @@ I used an open-source plugin called Bootstrap-Tour to do this. You can see the s
 </script>
 ```
 
-The most challenging part of this one was just understanding how the plugin worked. I was nose-deep inside its API documentation for a while. Most of the problem wasn't even the plugin's fault, it was Bootstrap's most recent security update sabotaging me; I couldn't get any buttons to appear in the popups the script was creating. As much time as it took me, to implement, and to solve this silly, silly bootstrap issue, it saved me a lot of time writing my own tour script.
+The most challenging part of this one was just understanding how the plugin worked. I was nose-deep inside its API documentation for a long time. Most of the problem wasn't even the plugin's fault, it was Bootstrap's most recent security update sabotaging me; I couldn't get any buttons to appear in the popups the script was creating. As much time as it took me to implement and to solve this silly, silly bootstrap issue, it saved me a lot of time writing my own tour script.
 
-I had to selectively modify parts of the plugin, too; in its original, baseline implementation, it was obscuring the navbar while "highlighting" it, which was a z-index issue; and that function just above the tour setup-block styles the highlighted element's backdrop to border the item (like in the second picture) instead of paneling it. Paneling. You know. It looks prettier, and you can actually tell what it is it wants you to see.
+I had to selectively modify parts of the plugin, too; in its original, baseline implementation, it was obscuring the navbar while "highlighting" it, which was a z-index issue; and that function just above the tour setup-block styles the highlighted element's backdrop to border the item (like in the second picture) instead of paneling it. Paneling. You know. It looks prettier, and you can actually tell what it is it wants you to see. I call that a victory.
 
 ## Final Thoughts?
 This is the first time I've ever worked on a team, on a cobbled-together team project. I didn't interact much with many of them, but it was interesting to see how projects like these are run. Our PM narrowed the scope of our user stories enough that it was fairly easy to stay out of each other's way. The only time we did have conflicts (or that I did, anyway) is when I went off scope to fix some little thing that just needed fixing, and even then, it was like twice total. But even so, throughout the two-week sprint, you could see the progress being made by everyone on the team. Again, I think I'm chatting to myself. It was really cool.
