@@ -347,7 +347,7 @@ This implementation only auto-scrolls to the bottom when the user is already vie
 
 ![Multiple Chat Clients](https://github.com/xpgram/Construction-LiveProj/blob/master/My%20Edit%20History/img/SignalR%20-%20Multi-Client%20Chat%20Populator.PNG)
 
-I remember this assignment seemed huge when I first took it, but that was because it was using ***a library*** and those are scary to me. It also wasn't commented at all, so it wasn't easy to understand what it was doing. Through research and my own tinkering, however, I realized it wasn't truly that big——and that SignalR is really easy to use, actually. I think I'm just chatting to myself at this point, you can go.
+I remember this assignment seemed huge when I first took it, but that was because it was using ***a library*** and those are scary to me. It also wasn't commented at all, so it wasn't easy to understand what it was doing. Through research and my own tinkering, however, I realized it wasn't truly that big—and that SignalR is really easy to use, actually. I think I'm just chatting to myself at this point, you can go.
 
 ## User Story: Dynamic Chat-Management Page
 My next assignment was chat-popup-adjacent. I found it easy to continue working in this area because I felt I already knew it so well. Getting to work didn't require any pre-research warm-up.
