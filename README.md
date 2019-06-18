@@ -262,7 +262,7 @@ namespace SignalRChat
 }
 ```
 
-I didn't change much of it structurally, the basic pieces were already there, but I went over every line, broke some blocks off into their own methods for reuseability, and made sure the class was doing what it was supposed to be. I also updated it with features you would expect it to have, like only sending the newest chats on update instead of refreshing the entire discussion history, auto-scrolling to the bottom when a new chat is posted (detailed further in the Javascript below), or only refreshing the discussion history of the client who asked for it. The previous implementation actaully called to refresh every client's window every time someone reloaded a page.
+I didn't change much of it structurally, the basic pieces were already there, but I went over every line, broke some blocks off into their own methods for reuseability, and made sure the class was doing what it was supposed to be. I also updated it with features you would expect it to have, like only sending the newest chats on update instead of refreshing the entire discussion history, auto-scrolling to the bottom when a new chat is posted (detailed further in the Javascript below), or only refreshing the discussion history of the client who asked for it. The previous implementation actually called to refresh every client's window every time someone reloaded a page.
 
 Here's the Javascript half of this solution.
 
