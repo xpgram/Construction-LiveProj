@@ -15,7 +15,7 @@ I didn't see the beginning of the project, and I won't see the end, but the expe
 ## User Story: Fit this chat-popup into the whitespace adjacent the Dashboard
 ![Chat Popup](https://github.com/xpgram/Construction-LiveProj/blob/master/My%20Edit%20History/img/Chat%20Popup%20-%20Stretch%201.PNG)
 
-This was my first real assignment. The popup was a little buggy, so in addition to getting it to fit like that, I also cleaned up the CSS so its elements were aligned, and the HTML surrounding its controls so it functions like you would expect. The popup had an issue where it would flicker sometimes when you changed pages or tried to open it. I messed with this thing a lot, as you'll see below, and in the end it was pretty unobtrusive; there when you wanted it, and gone when you didn't.
+This was my first real assignment. The popup was a little buggy, so in addition to getting it to fit like that, I also cleaned up the CSS so its elements were aligned and the HTML surrounding its controls so it functions like you would expect. The popup had an issue where it would flicker sometimes when you changed pages or tried to open it. I messed with this thing a lot, as you'll see below, and in the end it was pretty unobtrusive; there when you wanted it, and gone when you didn't.
 
 This cookie saving system, which I still don't think is doing quite what it's supposed to be, I rewrote and it largely solved that flickering problem.
 
